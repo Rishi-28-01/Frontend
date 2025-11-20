@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 2</title>
+</head>
+<body>
+    <h1>Welcome to Exercise 2</h1>
+    <p>This is a simple HTML page with an embedded Google Map.</p>
+    <iframe src="https://www.google.co.in/maps/place/Las+Vegas,+NV,+USA/@36.1248871,-115.3398099,11z/data=!3m1!4b1!4m6!3m5!1s0x80beb782a4f57dd1:0x3accd5e6d5b379a3!8m2!3d36.171563!4d-115.1391009!16zL20vMGN2M3c?authuser=3&entry=ttu&g_ep=EgoyMDI1MDkwMi4wIKXMDSoASAFQAw%3D%3D" width="800" height="600"></iframe>
+</body>
+</html>

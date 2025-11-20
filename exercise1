@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 1</title>
+</head>
+<body>
+    <h1>Html exercise</h1>
+    <p>Program to create a input field to take password as input.</p>
+
+    <input type="password" placeholder = "Enter your password" minlength="5" maxlength="14">
+
+
+<style>
+input[type="password"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+</style>
+</head>
+<body>
+Password:
+<input type="password" id="password" name="password" placeholder="*******">
+</body>
+</html>
+
+
+
+
+
