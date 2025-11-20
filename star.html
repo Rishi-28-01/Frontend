@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Star</title>
+<style>
+.star-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+/* --- Triangle 1 (Top-pointing) --- */
+.star-container div:first-child {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent; 
+  border-right: 50px solid transparent; 
+  border-bottom: 86.6px solid yellow; 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* --- Triangle 2 (Bottom-pointing) --- */
+.star-container div:last-child {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 86.6px solid yellow;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="star-container">
+  <div></div>
+  <div></div>
+</div>
+
+</body>
+</html>
